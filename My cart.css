@@ -1,0 +1,89 @@
+header 
+{
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+body
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('home.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+.cart-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.cart-item 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.cart-container h2,
+.cart-container p,
+
+.cart-container {
+    color: white;
+}
+.cart-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    color: white; /* عشان النص يبقى أبيض */
+}
+
+#payment-options {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.payment-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.payment-option span {
+    font-size: 18px;
+    color: white;
+}
+
+.payment-option:hover {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

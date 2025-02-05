@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="My cart.css">
+    <script defer src="Pharamcy.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Cart</h1>
+        <a href="Products.html" style="color: white;">Back to Product Page</a>
+    </header>
+
+    <div class="cart-container">
+        <h2>🛒 My Cart</h2>
+        <div id="cart-items"></div> 
+        <p class="total">Total: $<span id="total-price">0.00 </span></p>
+        <button onclick="showPaymentOptions()">Checkout</button>
+    
+        <!-- دي الأوبشنات بتاع الدفع اللي هتظهر بعد الضغط -->
+        <div id="payment-options" style="display:none;">
+            <h3>Select Payment Method</h3>
+            <div class="payment-option" onclick="processPayment('Visa Card')">
+                <img src="visa.png" alt="VisaCard" class="payment-icon">
+                <span>Visa Card</span>
+            </div>
+            <div class="payment-option" onclick="processPayment('PayPal')">
+                <img src="PayPal.png" alt="PayPal" class="payment-icon">
+                <span>PayPal</span>
+            </div>
+            <div class="payment-option" onclick="processPayment('Cash on Delivery')">
+                <img src="cash.png" alt="Cash on Delivery" class="payment-icon">
+                <span>Cash on Delivery</span>
+            </div>
+        </div>
+    </div>
+    
+
+       <!-- Footer -->
+       <footer>
+        <p>&copy; 2024 Our Pharmacy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="Products.css">
+    <script defer src="Pharamcy.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Products Page</h1>
+        <a href="Pharamacy.html" style="color: white;">Back to Main Page</a>
+    </header>
+
+    <!-- Discounted Products Section -->
+    <section id="discounted-products">
+        <h2 class="discounted-products-title">🔥 Discounted Products </h2> 
+        <div class="product">
+            <img src="pain.jpg" alt="Pain Relief">
+            <h3>Pain Relief Medicine</h3>
+            <p><del>$50.00</del> <strong class="price">$29.99</strong></p>
+    
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="vitamin.webp" alt="Vitamin C">
+            <h3>Vitamin C</h3>
+            <p><del>$20.00</del> <strong>$14.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Hair.webp" alt="Vitamin C">
+            <h3>Hair Serum</h3>
+            <p><del>$590.00</del> <strong>$340.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Allergy Medicine.webp" alt="Allergy Medicine">
+            <h3>Allergy Medicine</h3>
+            <p><del>$200.00</del> <strong>$149.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="Diabetes.jpg" alt="Diabetes Medicine">
+            <h3>Diabetes Medicine</h3>
+            <p><del>$290.00</del> <strong>$189.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+    </section>
+    
+
+    <!-- Regular Products Section -->
+    <section id="regular-products">
+        <h2 class="Regular-products-title">🛒Availabe Products </h2> 
+        <div class="product">
+            <img src="skin.jpg" alt="Skincare">
+            <h3>Skin care Products</h3>
+            <p>Moisturizing and nourishing skincare cream.</p>
+            <p> <strong>$399.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Baby.jpg" alt="Baby Care">
+            <h3>Baby Care Products</h3>
+            <p>100% safe baby care essentials.</p>
+            <p> <strong>$239.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Kids & Adult Multivitamins.webp" alt="Kids & Adult Multivitamins">
+            <h3>Kids & Adult Multivitamins</h3>
+            <p>Multivitamins for kids and adults are supplements designed to fill nutritional gaps.</p>
+            <p> <strong>$130.00</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Cold & flu remedies.jpeg" alt="Cold & flu remedies">
+            <h3>Cold & flu remedies medicines</h3>
+            <p>Cold and flu remedies ease symptoms like fever, cough, congestion, sore throat, and body aches.</p>
+            <p> <strong>$45.00</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Fat burners & Detox teas.jpg" alt="Fat burners & Detox teas">
+            <h3>Fat burners & Detox teas</h3>
+            <p>Fat burners and detox teas support body detoxification.</p>
+            <p> <strong>$95.00</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+        
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+       
+        </div>
+        <div class="product">
+            <img src="sugar-free supplements.jpg" alt=" sugar-free supplements.">
+            <h3> sugar-free supplements</h3>
+            <p>Sugar-free supplements provide essential vitamins without added sugars</p>
+            <p> <strong>$329.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="Bone & Joint.jpg" alt=" Bone & Joint ">
+            <h3> Bone & Joint  Medicines</h3>
+            <p>Bone & Joint supplements support bone density and joint flexibility</p>
+            <p> <strong>$79.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="moisturizer.jpg" alt=" moisturizer">
+            <h3> Moisturizer</h3>
+            <p>Moisturizers helps to prevent dryness and flakiness.</p>
+            <p> <strong>$540.00</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="ear wax.jpg" alt=" ear wax remover">
+            <h3> Ear wax Remover</h3>
+            <p>Ear wax removers prevent buildup that can cause discomfort or infections.</p>
+            <p> <strong>$30.00</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+        <div class="product">
+            <img src="insulin injections.webp" alt=" insulin injections">
+            <h3> insulin injections</h3>
+            <p>Insulin injections help regulate blood sugar levels in people with diabetes.</p>
+            <p> <strong>$349.99</strong></p>
+            <div class="quantity-container">
+                <button class="quantity-btn" onclick="decreaseQuantity(this)">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" onclick="increaseQuantity(this)">+</button>
+            </div>
+            <button class="inquire-btn" onclick="addToCart(this)">Add to Cart</button>
+            <button class="cart-btn" onclick="goToCart()">Go to My Cart</button>
+        </div>
+       
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Our Pharmacy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

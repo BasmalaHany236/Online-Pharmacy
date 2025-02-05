@@ -1,0 +1,160 @@
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+body
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('home.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+#contact-info, #map, #contact-form, #social-media {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #2ecc71;
+}
+
+.call-button, .whatsapp-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #25D366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.call-button:hover, .whatsapp-button:hover {
+    background: #128C7E;
+}
+
+
+#contact-form {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    align-items: center; /* توسيط العناصر */
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 80%; /* نفس العرض لكل الحقول */
+    max-width: 400px; /* تحديد عرض أقصى */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px; /* حجم مناسب للمربع */
+    resize: none; /* تعطيل تغيير الحجم */
+}
+
+button {
+    width: 80%;
+    max-width: 400px;
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#social-media {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+#social-media a {
+    display: inline-block;
+    font-size: 40px; /* حجم الأيقونة */
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* لون Facebook */
+#social-media a.facebook {
+    color: #1877F2;
+}
+
+#social-media a.facebook:hover {
+    color: #0d65c2;
+}
+
+/* لون WhatsApp */
+#social-media a.whatsapp {
+    color: #25D366;
+}
+
+#social-media a.whatsapp:hover {
+    color: #1da851;
+}
+
+/* لون Instagram */
+#social-media a.instagram {
+    color: #E4405F;
+}
+
+#social-media a.instagram:hover {
+    color: #c13548;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative; 
+}

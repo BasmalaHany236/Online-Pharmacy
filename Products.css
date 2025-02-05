@@ -1,0 +1,140 @@
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+body
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('home.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+/* Make sure the section title is white */
+#discounted-products 
+{
+    border: 2px solid rgb(255, 0, 21);
+}
+
+.discounted-products-title
+ {
+    text-align: left; 
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+/* Container width */
+#discounted-products-container {
+    width: 80%;
+    margin: 80px;
+}
+
+#discounted-products h3, 
+#discounted-products p 
+{
+    color: black; 
+}
+
+
+
+#regular-products {
+    background: rgba(0, 0, 255, 0.1);
+    border: 2px solid blue;
+}
+.Regular-products-title
+ {
+    text-align: left; 
+    font-size: 24px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 70px;
+}
+
+.inquire-btn {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.inquire-btn:hover {
+    background: #2ecc71;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.quantity-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+}
+.cart-btn {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart-btn:hover {
+    background-color: #2ecc71; /* لون أغمق عند تمرير الماوس */
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative; 
+}
